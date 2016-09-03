@@ -1,0 +1,35 @@
+tonyx@tonyx-mbp:~/projects/tonyx_git/PythonLearning 
+$ cat README.md 
+# PythonLearning
+Learning Python. Something I picked up from https://github.com/Yixiaohan/show-me-the-code
+
+001 - Add text to icon:
+use the PIL module. Decide font dynamtically
+tonyx@tonyx-mbp:~/projects/tonyx_git/PythonLearning 
+$ ls
+000_add_test_image		001_generate_random_coupon	002_coupon_sqlite		LICENSE				README.md
+tonyx@tonyx-mbp:~/projects/tonyx_git/PythonLearning 
+$ mkdir 004_count_words
+tonyx@tonyx-mbp:~/projects/tonyx_git/PythonLearning 
+$ cd 004_count_words/
+tonyx@tonyx-mbp:~/projects/tonyx_git/PythonLearning/004_count_words 
+$ ls
+tonyx@tonyx-mbp:~/projects/tonyx_git/PythonLearning/004_count_words 
+$ cp ../001_generate_random_coupon/generate_coupon.py ./
+tonyx@tonyx-mbp:~/projects/tonyx_git/PythonLearning/004_count_words 
+$ ls
+generate_coupon.py
+tonyx@tonyx-mbp:~/projects/tonyx_git/PythonLearning/004_count_words 
+$ slt generate_coupon.py 
+tonyx@tonyx-mbp:~/projects/tonyx_git/PythonLearning/004_count_words 
+$ cp generate_coupon.py  ./template.py
+tonyx@tonyx-mbp:~/projects/tonyx_git/PythonLearning/004_count_words 
+$ python
+Python 2.7.10 (default, Oct 23 2015, 19:19:21) 
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import numpy
+>>> exit
+Use exit() or Ctrl-D (i.e. EOF) to exit
+>>> ^D
+tonyx@tonyx-mbp:~/projects/tonyx_git/PythonLearning/004_count_words 
